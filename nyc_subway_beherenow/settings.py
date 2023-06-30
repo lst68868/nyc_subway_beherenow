@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_extensions',
     'subway'
 ]
 
@@ -78,8 +77,8 @@ WSGI_APPLICATION = 'nyc_subway_beherenow.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'nyc_subway_beherenow',
-        'USER': 'nyc_subway_beherenow_admin',
+        'NAME': 'nyc_subway',
+        'USER': 'nyc_subway_admin',
         'PASSWORD': 'password',
         'HOST': 'localhost'
     }
